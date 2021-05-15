@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Contact App</string>
+    <string name="my_contact_category">My Contact Category</string>
+    <string name="add_new_contact">Add New Contact</string>
+    <string name="hint_name">Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="save_text">Save</string>
+</resources>
