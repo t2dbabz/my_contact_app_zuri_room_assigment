@@ -1,10 +1,11 @@
-package com.example.mycontactapp
+package com.example.mycontactapp.adapter
 
 
 import android.content.Intent
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.example.mycontactapp.ContactListActivity
 import com.example.mycontactapp.databinding.CategoryListItemBinding
 
 
@@ -13,7 +14,7 @@ class CategoryAdapter(
 ) : RecyclerView.Adapter<CategoryAdapter.CategoryViewHolder>() {
 
 
-    class CategoryViewHolder(private val binding: CategoryListItemBinding) :
+    class CategoryViewHolder(binding: CategoryListItemBinding) :
         RecyclerView.ViewHolder(binding.root) {
         val button = binding.categoryButtonItem
         fun bind(category: String) {

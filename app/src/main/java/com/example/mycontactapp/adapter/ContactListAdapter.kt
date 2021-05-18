@@ -1,8 +1,9 @@
-package com.example.mycontactapp
+package com.example.mycontactapp.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.example.mycontactapp.model.Contact
 import com.example.mycontactapp.databinding.ContactListItemBinding
 
 class ContactListAdapter() : RecyclerView.Adapter<ContactListAdapter.ContactListViewHolder>() {

@@ -9,7 +9,9 @@ import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.appcompat.app.AlertDialog
 import androidx.recyclerview.widget.DividerItemDecoration
+import com.example.mycontactapp.adapter.ContactListAdapter
 import com.example.mycontactapp.databinding.ActivityContactListBinding
+import com.example.mycontactapp.model.Contact
 
 class ContactListActivity : AppCompatActivity() {
     companion object {
